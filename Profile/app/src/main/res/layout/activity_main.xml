@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circle_bg"
+        android:clipToOutline="true"
+        android:contentDescription="Avatar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar" />
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn Trường"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phường Vũng Tàu, TP Hồ Chí Minh"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp" />
+</LinearLayout>
