@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tuan3">
+
+    <application
+        android:allowBackup="true"
+        android:label="Tuan3"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".TextViewActivity"/>
+        <activity android:name=".ImageViewActivity"/>
+        <activity android:name=".EditTextActivity"/>
+        <activity android:name=".ButtonActivity"/>
+        <activity android:name=".ImageButtonActivity"/>
+        <activity android:name=".ToggleButtonActivity"/>
+        <activity android:name=".RadioButtonActivity"/>
+        <activity android:name=".CheckBoxActivity"/>
+        <activity android:name=".AutoComplete"/>
+        <activity android:name=".ProgressBarActivity"/>
+        <activity android:name=".SpinnerActivity"/>
+        <activity android:name=".TimePickerActivity"/>
+        <activity android:name=".DatePickerActivity"/>
+        <activity android:name=".SeekBarActivity"/>
+        <activity android:name=".AlertDialogActivity"/>
+        <activity android:name=".SwitchActivity"/>
+
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

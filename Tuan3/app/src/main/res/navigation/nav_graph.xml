@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.tuan3.WelcomeFragment"
+        android:label="Welcome">
+        <action
+            android:id="@+id/action_welcome_to_text"
+            app:destination="@id/textFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/textFragment"
+        android:name="com.example.tuan3.TextFragment"
+        android:label="Text Screen" />
+
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.tuan3.ImageFragment"
+        android:label="Image Screen" />
+</navigation>
