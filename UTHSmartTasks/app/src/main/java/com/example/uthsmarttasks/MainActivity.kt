@@ -11,6 +11,7 @@ import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 
+
 @OptIn(ExperimentalAnimationApi::class)
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,26 +31,36 @@ fun SmartTasksApp() {
 
     AnimatedNavHost(
         navController = navController,
-        startDestination = "forgot"
+        startDestination = "login" // 🔹 Màn hình đầu tiên
     ) {
+        // Đăng nhập
+        composable("login") { LoginScreen(navController) }
+
+        // Quên mật khẩu
         composable("forgot") { ForgotPasswordScreen(navController) }
 
+        // Xác minh mã
         composable("verify/{email}") { backStack ->
             val email = backStack.arguments?.getString("email") ?: ""
             VerifyCodeScreen(navController, email)
         }
 
+        // Tạo mật khẩu mới
         composable("createNew/{email}/{code}") { backStack ->
             val email = backStack.arguments?.getString("email") ?: ""
             val code = backStack.arguments?.getString("code") ?: ""
             CreateNewPasswordScreen(navController, email, code)
         }
 
+        // Xác nhận
         composable("confirm/{email}/{code}/{password}") { backStack ->
             val email = backStack.arguments?.getString("email") ?: ""
             val code = backStack.arguments?.getString("code") ?: ""
             val password = backStack.arguments?.getString("password") ?: ""
             ConfirmScreen(navController, email, code, password)
         }
+
+        // Hồ sơ người dùng (sau khi đăng nhập thành công)
+        composable("profile") { ProfileScreen(navController) }
     }
 }

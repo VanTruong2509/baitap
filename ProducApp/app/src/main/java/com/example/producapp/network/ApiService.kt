@@ -1,0 +1,9 @@
+package com.example.producapp.network
+
+import com.example.producapp.model.Product
+import retrofit2.http.GET
+
+interface ApiService {
+    @GET("m1/890655-872447-default/v2/product")
+    suspend fun getProduct(): Product
+}

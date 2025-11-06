@@ -7,6 +7,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.uthsmarttasks.R
@@ -14,6 +15,7 @@ import com.example.uthsmarttasks.R
 @Composable
 fun ForgotPasswordScreen(navController: NavController) {
     var email by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") } // 🔹 thêm biến lưu mật khẩu
 
     Column(
         modifier = Modifier
@@ -28,11 +30,13 @@ fun ForgotPasswordScreen(navController: NavController) {
             modifier = Modifier.height(80.dp)
         )
         Spacer(modifier = Modifier.height(16.dp))
+
         Text("SmartTasks", style = MaterialTheme.typography.headlineSmall)
         Spacer(modifier = Modifier.height(8.dp))
         Text("Forget Password?", style = MaterialTheme.typography.titleMedium)
         Spacer(modifier = Modifier.height(16.dp))
 
+        // 🔹 Ô nhập Email
         OutlinedTextField(
             value = email,
             onValueChange = { email = it },
@@ -40,9 +44,24 @@ fun ForgotPasswordScreen(navController: NavController) {
             modifier = Modifier.fillMaxWidth()
         )
 
+        Spacer(modifier = Modifier.height(12.dp))
+
+        OutlinedTextField(
+            value = password,
+            onValueChange = { password = it },
+            label = { Text("Your Password") },
+            visualTransformation = PasswordVisualTransformation(),
+            modifier = Modifier.fillMaxWidth()
+        )
+
         Spacer(modifier = Modifier.height(20.dp))
+
         Button(
-            onClick = { if (email.isNotBlank()) navController.navigate("verify/$email") },
+            onClick = {
+                if (email.isNotBlank() && password.isNotBlank()) {
+                    navController.navigate("verify/$email")
+                }
+            },
             modifier = Modifier.fillMaxWidth()
         ) {
             Text("Next")

@@ -28,7 +28,7 @@ object SampleData {
         // ✅ C chưa mượn gì
         Student(
             id = 3,
-            name = "Nguyen Van C",
+            name = "Nguyen Van Truong",
             borrowedBooks = mutableListOf()
         )
     )

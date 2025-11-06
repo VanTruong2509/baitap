@@ -21,7 +21,6 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun OnboardingScreen(navController: NavController) {
-    // Danh sách nội dung từng trang onboarding
     val pages = listOf(
         OnboardingPage(
             "Easy Time Management",
@@ -40,7 +39,6 @@ fun OnboardingScreen(navController: NavController) {
         )
     )
 
-    // ✅ Với Compose 1.6+, truyền { pages.size } vào rememberPagerState
     val pagerState = rememberPagerState(initialPage = 0) { pages.size }
     val coroutineScope = rememberCoroutineScope()
 
@@ -50,7 +48,6 @@ fun OnboardingScreen(navController: NavController) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // ✅ Không còn dùng pageCount = ... nữa
         HorizontalPager(
             state = pagerState,
             modifier = Modifier.weight(1f)

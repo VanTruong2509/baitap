@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e492891-cff4-48c1-b139-d9659d1416ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/androidTest/java/com/example/sortingsearchingdemo/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/java/com/example/sortingsearchingdemo/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/app/src/test/java/com/example/sortingsearchingdemo/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortingSearchingDemo/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/appInsightsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/androidTest/java/com/example/tuan5/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/java/com/example/tuan5/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/java/com/example/tuan5/ui/FirebaseLoginScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/app/src/test/java/com/example/tuan5/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan5/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuan4/app/src/main/java/com/example/tuan4/data/SampleData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../tuan4/app/src/main/java/com/example/tuan4/data/SampleData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uthnavigation/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uthnavigation/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uthnavigation/app/src/main/java/com/example/uthnavigation/ui/OnboardingScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../uthnavigation/app/src/main/java/com/example/uthnavigation/ui/OnboardingScreen.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="34hO4Ev6llbHal6ASFQ5uHlw5hZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e492891-cff4-48c1-b139-d9659d1416ea" name="Changes" comment="" />
+      <created>1761662146273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761662146273</updated>
+    </task>
+    <servers />
+  </component>
+</project>

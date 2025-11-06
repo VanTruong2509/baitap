@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.uthsmarttasks" />
+                  <option name="mobileSdkAppId" value="1:194873088091:android:48164e775cc3af6d31077e" />
+                  <option name="projectId" value="uthsmarttasks-86142" />
+                  <option name="projectNumber" value="194873088091" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
